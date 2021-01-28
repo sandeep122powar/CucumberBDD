@@ -1,2 +1,2 @@
-# CucumberBDD
-Selenium Java - Cucumber BDD Framework
+# Selenium Project
+Selenium Java - Page Object Model
