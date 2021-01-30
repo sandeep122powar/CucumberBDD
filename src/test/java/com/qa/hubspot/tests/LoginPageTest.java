@@ -14,7 +14,7 @@ public class LoginPageTest extends BaseTest {
         Assert.assertEquals(title, "Swag Labs");
     }
 
-    @Test
+    @Test (priority = 2)
     public void verifyLogin(){
         page.getInstance(LoginPage.class).doLogin("standard_user", "secret_sauce");
         String homePageTitle = page.getInstance(HomePage.class).getHomePageTitle();
